@@ -3,13 +3,13 @@
     <string name="query_url">https://pixabay.com/api/?key=24011559-25261253708e775243046bc63&amp;q=%1$s</string>
     <string name="fragment_text">Fragment Number %1$d</string>
     <string-array name="image_queries">
-        <item>yellow+flower</item>
-        <item>waterfall</item>
-        <item>waves</item>
-        <item>green+hill</item>
-        <item>dawn+tree</item>
-        <item>grass+dew</item>
+        <item>woman+autumn+decor</item>
+        <item>holidays+mystery+crow</item>
+        <item>owl+night+moon</item>
+        <item>trick+or+treat</item>
+        <item>ghosts</item>
+        <item>skull+mirror+horror</item>
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Trick-or-treat</string>
 </resources>

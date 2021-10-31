@@ -8,7 +8,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 
-private const val NUM_FRAGMENTS = 3
+private const val NUM_FRAGMENTS = 7
 
 class MainActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager2
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         override fun createFragment(position: Int): Fragment {
             return when(position) {
                 0 -> HomeFragment.newInstance()
-                else -> NumberFragment.newInstance(position)
+                else -> WallpaperFragment.newInstance(position)
             }
         }
 
